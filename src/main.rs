@@ -1,3 +1,6 @@
+mod roman_to_integer;
+
 fn main() {
-    println!("Hello, world!");
+    let res = roman_to_integer::roman_to_int("IV".into());
+    println!("{}", res);
 }
